@@ -1,0 +1,71 @@
+.header {
+  font-family: "IBMPlexSansRegular";
+  font-weight: bold;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+
+
+  .telephoneNumber {
+    display: inline-block;
+    color: #B0140E;
+    line-height: 20px;
+    margin: auto 0 auto 7.5%;
+    vertical-align: top;
+  }
+
+  .language {
+    display: inline-block;
+    margin: 0 0 0 4.2%;
+    vertical-align: top;
+
+  }
+
+  .ring {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 13.7%;
+
+    p {
+      margin-top: 0;
+      margin-bottom: 5px;
+      text-align: center;
+    }
+
+    img {
+      display: block;
+      margin: 8px auto 0 auto;
+    }
+
+    figure {
+      display: block;
+      width: 16px;
+      background-color: #B0140E;
+      border-radius: 50%;
+      margin-top: 5px;
+
+      p {
+        font-size: rem(7px);
+        padding: 5px 5px 5px 4px;
+      }
+    }
+  }
+
+  .navigation {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0;
+    margin-left: 13%;
+
+    span {
+      margin-right: rem(20px);
+    }
+
+    span:nth-child(2)::after {
+      content: " \25BC";
+      color: #b0140e;
+    }
+    span:last-child {
+      margin-right: 0;
+    }
+  }
+}

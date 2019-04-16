@@ -2,22 +2,18 @@
 $google-font:  'https://fonts.googleapis.com/css?family=Ubuntu:400,500';
 
 @font-face {
-  font-family: TTSquaresCondensedBlackItalic;
-  src: url("../../fonts/TTSquaresCondensedBlackItalic.otf") format("opentype");
+  font-family: IBMPlexSansBold;
+  src: url("../../fonts/IBMPlexSans-Bold.ttf") format("opentype");
 }
 @font-face {
-  font-family: DS-DIGIB;
-  src: url("../../fonts/DS-DIGIB.ttf") format("opentype");
-}
-@font-face {
-  font-family: DS-DIGII;
-  src: url("../../fonts/DS-DIGII.ttf") format("opentype");
+  font-family: IBMPlexSansRegular;
+  src: url("../../fonts/IBMPlexSans-Regular.ttf") format("opentype");
 }
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
 
 $baseFontSize: 16px;
-$baseFontFamily: 'Ubuntu', sans-serif;
+$baseFontFamily: 'IBMPlexSansRegular', sans-serif;
 $mediumFontWeight: 500;
 
 

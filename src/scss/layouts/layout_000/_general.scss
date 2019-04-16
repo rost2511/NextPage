@@ -19,14 +19,17 @@ html {
 
 body {
     font-family: $baseFontFamily;
+    background-color: #1d1d1d;
+    color: #ffffff;
 }
 .container {
-    background-color: #0c1013;
-    width: 100%;
-    height: 100vh;
+.container-wrapper {
+    //max-width: 82%;
+    max-width: 1440px;
+    margin: 2.8% 9% 5.2% 9%;
+}
 }
 
 h1 {
     font-weight: $mediumFontWeight;
 }
-
